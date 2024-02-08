@@ -9,7 +9,7 @@ function calculate(p,d){
 		var cal = calculate(dist, pace);
 	//---------------------------
 		msg = "successfully calculated!";
-		return {"status":1,"message":msg,"hour":hour,"min":min};
+		return {"status":1,"message":msg,"hour":cal.hour,"min":cal.min};
 }
 
 function vaildate(pace) {
